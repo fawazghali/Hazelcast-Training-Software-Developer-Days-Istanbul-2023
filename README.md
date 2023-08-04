@@ -18,5 +18,24 @@ Participants will be guided through the development of a basic Pipeline that con
 - Download Hazelcast: https://docs.hazelcast.com/hazelcast/latest/getting-started/get-started-cli
 - Download Kafka: https://kafka.apache.org/downloads
 
+## SQL queries
+```
+SELECT customer AS Customer, ROUND(price,2) AS Price, amount AS "Sold"
+FROM orders;
+```
+
+Limit the output to one item.
+```
+SELECT customer AS Customer, ROUND(price,2) AS Price, amount AS "Sold"
+FROM orders
+WHERE customer = 'Fawaz';
+```
+Or
+```
+SELECT customer AS Customer, ROUND(price,2), amount AS "Sold"
+FROM orders
+WHERE customer = 'Jon' AND amount > 50;
+```
+
 ## Slack
 Make sure to joing our Community Slack: https://slack.hazelcast.com/
