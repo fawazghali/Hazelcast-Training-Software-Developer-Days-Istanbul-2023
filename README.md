@@ -3,14 +3,14 @@ Hazelcast-Training-Software-Developer-Days-Istanbul-2023
 
 # How to Get Started with Stream Processing, Kafka and SQL in a Simplified and Efficient Way.
 
-Event Name: Software Developer Days Istanbul 2023
-Date: August 12-13, 2023
-Venue: IPA Florya Campus
-Address: Basınköy, Valilik Yolu Cd. No:2, 34153 Bakırköy / Istanbul
-Duration: 1 hour
-Target audience: Java/SQL application developers and solution architects.
-Prerequisites: Familiarity with Java, Kafka and SQL.
-Lab Leads: Fawaz Ghali, PhD and Hazelcast engineers.
+- Event Name: Software Developer Days Istanbul 2023
+- Date: August 12-13, 2023
+- Venue: IPA Florya Campus
+- Address: Basınköy, Valilik Yolu Cd. No:2, 34153 Bakırköy / Istanbul
+- Duration: 1 hour
+- Target audience: Java/SQL application developers and solution architects.
+- Prerequisites: Familiarity with Java, Kafka and SQL.
+- Lab Leads: Fawaz Ghali, PhD and Hazelcast engineers.
 
 
 ## Description: 
