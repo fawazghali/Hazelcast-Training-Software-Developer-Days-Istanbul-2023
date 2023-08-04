@@ -14,5 +14,9 @@ In this hands-on workshop, you will gain an understanding of how to use Hazelcas
 
 Participants will be guided through the development of a basic Pipeline that contains all of the essential elements of a stream processing solution, including sources, sinks, mappings, aggregations, and filters. Attendees will learn how to use Hazelcast, Kafka and SQL to process streaming data; enrich streaming data with data in fast storage; store output in fast storage.
 
+## Prerequisites
+- Download Hazelcast: https://docs.hazelcast.com/hazelcast/latest/getting-started/get-started-cli
+- Download Kafka: https://kafka.apache.org/downloads
+
 ## Slack
 Make sure to joing our Community Slack: https://slack.hazelcast.com/
