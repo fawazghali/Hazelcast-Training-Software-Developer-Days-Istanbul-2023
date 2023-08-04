@@ -1,4 +1,4 @@
-# How to Get Started with Stream Processing, Kafka and SQL in a Simplified and Efficient Way.
+# How to Get Started with Stream Processing, Kafka and SQL
 - Event Name: Software Developer Days Istanbul 2023
 - Date: August 12-13, 2023
 - Venue: IPA Florya Campus
