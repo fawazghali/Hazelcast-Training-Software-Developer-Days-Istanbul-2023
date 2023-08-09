@@ -66,5 +66,21 @@ JOIN extras
 ON extras.customer = orders.customer 
 AND extras.extra2 = 'red';
 ```
+
+### (Advanced) Stream to Stream Joins: ```stream-to-stream-join.sql```
+```
+SELECT
+     tro.customer AS Customer,
+     tro.price AS Price,
+     hl.high AS High,
+     hl.low AS Low
+FROM orders_ordered AS tro
+JOIN high_low AS hl
+ON tro.customer= hl.customer
+AND hl.window_end BETWEEN tro.order_ts AND tro.order_ts + INTERVAL '0.1' SECONDS;
+```
+
+
+
 ## Slack
 Make sure to joing our Community Slack: https://slack.hazelcast.com/
